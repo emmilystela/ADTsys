@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(61,104,172);
+    background: radial-gradient(circle, rgba(149,173,211,1), rgba(61,104,172,1) 25%, rgba(218,66,53,1) 84%);
+    font-size: 12px;
+}
+
+.container img {
+    max-width:400px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    position: absolute; 
+	right: 150px; 
+	top: 350px; 
+}
+
+.logo img{
+    top: 10%;
+    left: 45%;
+    position: absolute; 
+    max-width:400px;
+    max-height:200px;
+}
+.pokemons img {
+   
+    width: auto;
+    height: auto;
+    position: absolute; 
+	left: 90px; 
+	top: 250px;
+}
+    
+.tela-cidade{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+button {background-image:  linear-gradient(to right, #c52018 0%, #D4DCD7  51%, #c52018  100%)}
+button {
+   padding: 12px;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 15px;
+   /* display: block; */
+   border: none;
+   outline: none;
+   width: 20%;
+
+ }
+
+ button:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ /* .pokemons */
+
+ .tela-pokemon{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.p{
+    background-color: #f6bd20cb;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.what img {
+    max-width:400px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    position: absolute; 
+	left: 260px; 
+	top: 315px; 
+}
+
