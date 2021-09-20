@@ -1,15 +1,42 @@
-# Desafio Pokémon
+<h2 align="center">
+  <br/>
+  Desafio Pokémon
+</h2>
 
-O objtivo desse desafio foi criar uma aplicação onde conseguiriamos encontrar um pokemon em qualquer local do mundo dependendo do clima no local. 
+<p align="center">
+  <a href="#-rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalar-o-heroku-cli">Teste APIs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-<h2> ToDo List: </h2>
+<br>
 
-- Implementar a API OpenWeatherMap; 
-- Retornar os valores da temperatura em Celsius e a descrição do clima;
+## :rocket: Tecnologias
 
-- Implementar a API PokeAPI;
-- Separar pokémons por tipos (fire, grass, water...) de acordo com a temperatura; 
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-<h2> Linguagens </h2>
+- [PHP](https://www.php.net/)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Weather API](https://openweathermap.org/api)
+- [PokeAPI](https://pokeapi.co/docs/v2)
 
-Para o desenvolvimento backend foi utilizado a linguagem PHP e para o layout HTML e CSS. 
+## 💻 Projeto
+
+O objetivo desse desafio foi criar uma aplicação onde conseguiriamos encontrar um pokemon em qualquer local do mundo dependendo do clima no local. 
+
+
+## 🤔 Como contribuir
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## 💾 Teste APIs
+Para testar a API você pode utilizar o Insomnia.
+
+Baixar e instalar [Insomnia](https://insomnia.rest/downlo).
+
