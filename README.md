@@ -20,6 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Weather API](https://openweathermap.org/api)
 - [PokeAPI](https://pokeapi.co/docs/v2)
+- [Lista de Pokémons](https://www.canalti.com.br/api/pokemons.json)
 
 ## 💻 Projeto
 
