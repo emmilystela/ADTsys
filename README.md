@@ -8,6 +8,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-teste-apis">Teste APIs</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+  <a href="#-rodando-aplicacao">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -35,6 +36,12 @@ O objetivo desse desafio foi criar uma aplicação onde conseguiriamos encontrar
 - Faça push para a sua branch: `git push origin minha-feature`.
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## 🚂 Rodando aplicação 
+
+- Para rodar a aplicação você precisará de um pacote AMP (XAMPP);
+
+- [Como Instalar o XAMPP](https://netbeans.apache.org//kb/docs/php/configure-php-environment-windows_pt_BR.html).
 
 ## 💾 Teste APIs
 Para testar a API você pode utilizar o Insomnia.
