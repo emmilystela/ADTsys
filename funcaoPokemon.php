@@ -1,14 +1,10 @@
 <?php
 
-$pokemon = "fire";
-
-
 function escolhaPokemon($pokemon){
     $response = file_get_contents('https://pokeapi.co/api/v2/type/'.$pokemon);
     $response = json_decode($response); 
     return $response;
 }
-
 
 function escolhaTipo($temperatura){
     if($temperatura < 5){
