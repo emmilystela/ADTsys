@@ -17,6 +17,7 @@ $tipoPokemon = escolhaTipo($clima->main->temp);
 
 $pokemon = escolhaPokemon($tipoPokemon);
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,13 +37,21 @@ $pokemon = escolhaPokemon($tipoPokemon);
         
                 <h4>E um deles é:</h4>
                 <h2 class="p"><?= $pokemon->pokemon[0]->pokemon->name;?></h2>
+
+                <?php foreach ($imgPokemons->pokemon as $imgPokemon) {
+                    if(strtolower($imgPokemon->name) == strtolower($pokemon->pokemon[0]->pokemon->name)){
+                        $img = $imgPokemon->img;
+                    ?> 
+                <img src="<?=$img?>">
+                    
+                <?php } } ?>
          
                 <h4>Hoje em <?=$resultCidade?> está:</h4>
                 <h2 class="p"><?=$clima->main->temp?>°C</h2>
                 <h2 class="p"><?=$clima->weather[0]->description?></h2>
     </div>
     <div class="what">
-        <img src="img/what.png">
+        <!-- <img src="img/what.png"> -->
     </div>
 </body>
 </html>

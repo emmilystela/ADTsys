@@ -38,6 +38,9 @@ function escolhaTipo($temperatura){
     if($temperatura == "rain"){
         return 'electric';
     }
-
 }
+
+$url = "https://www.canalti.com.br/api/pokemons.json";
+$imgPokemons = json_decode(file_get_contents($url));
+
 ?>
